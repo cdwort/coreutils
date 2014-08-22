@@ -86,6 +86,7 @@ PROGS       := \
   whoami
 
 UNIX_PROGS := \
+  chown \
   chroot \
   groups \
   hostid \
