@@ -5,255 +5,255 @@ authors = []
 
 [[bin]]
 name = "base64"
-path = "base64/base64.rs"
+path = "src/base64/base64.rs"
 
 [[bin]]
 name = "basename"
-path = "basename/basename.rs"
+path = "src/basename/basename.rs"
 
 [[bin]]
 name = "cat"
-path = "cat/cat.rs"
+path = "src/cat/cat.rs"
 
 [[bin]]
 name = "chroot"
-path = "chroot/chroot.rs"
+path = "src/chroot/chroot.rs"
 
 [[bin]]
 name = "cksum"
-path = "cksum/cksum.rs"
+path = "src/cksum/cksum.rs"
 
 [[bin]]
 name = "comm"
-path = "comm/comm.rs"
+path = "src/comm/comm.rs"
 
 [[bin]]
 name = "cp"
-path = "cp/cp.rs"
+path = "src/cp/cp.rs"
 
 [[bin]]
 name = "cut"
-path = "cut/cut.rs"
+path = "src/cut/cut.rs"
 
 [[bin]]
 name = "dirname"
-path = "dirname/dirname.rs"
+path = "src/dirname/dirname.rs"
 
 [[bin]]
 name = "du"
-path = "du/du.rs"
+path = "src/du/du.rs"
 
 [[bin]]
 name = "echo"
-path = "echo/echo.rs"
+path = "src/echo/echo.rs"
 
 [[bin]]
 name = "env"
-path = "env/env.rs"
+path = "src/env/env.rs"
 
 [[bin]]
 name = "expand"
-path = "expand/expand.rs"
+path = "src/expand/expand.rs"
 
 [[bin]]
 name = "factor"
-path = "factor/factor.rs"
+path = "src/factor/factor.rs"
 
 [[bin]]
 name = "false"
-path = "false/false.rs"
+path = "src/false/false.rs"
 
 [[bin]]
 name = "fmt"
-path = "fmt/fmt.rs"
+path = "src/fmt/fmt.rs"
 
 [[bin]]
 name = "fold"
-path = "fold/fold.rs"
+path = "src/fold/fold.rs"
 
 [[bin]]
 name = "groups"
-path = "groups/groups.rs"
+path = "src/groups/groups.rs"
 
 [[bin]]
 name = "hashsum"
-path = "hashsum/hashsum.rs"
+path = "src/hashsum/hashsum.rs"
 
 [[bin]]
 name = "head"
-path = "head/head.rs"
+path = "src/head/head.rs"
 
 [[bin]]
 name = "hostid"
-path = "hostid/hostid.rs"
+path = "src/hostid/hostid.rs"
 
 [[bin]]
 name = "hostname"
-path = "hostname/hostname.rs"
+path = "src/hostname/hostname.rs"
 
 [[bin]]
 name = "id"
-path = "id/id.rs"
+path = "src/id/id.rs"
 
 [[bin]]
 name = "kill"
-path = "kill/kill.rs"
+path = "src/kill/kill.rs"
 
 [[bin]]
 name = "link"
-path = "link/link.rs"
+path = "src/link/link.rs"
 
 [[bin]]
 name = "logname"
-path = "logname/logname.rs"
+path = "src/logname/logname.rs"
 
 [[bin]]
 name = "mkdir"
-path = "mkdir/mkdir.rs"
+path = "src/mkdir/mkdir.rs"
 
 [[bin]]
 name = "mkfifo"
-path = "mkfifo/mkfifo.rs"
+path = "src/mkfifo/mkfifo.rs"
 
 [[bin]]
 name = "nl"
-path = "nl/nl.rs"
+path = "src/nl/nl.rs"
 
 [[bin]]
 name = "nohup"
-path = "nohup/nohup.rs"
+path = "src/nohup/nohup.rs"
 
 [[bin]]
 name = "paste"
-path = "paste/paste.rs"
+path = "src/paste/paste.rs"
 
 [[bin]]
 name = "printenv"
-path = "printenv/printenv.rs"
+path = "src/printenv/printenv.rs"
 
 [[bin]]
 name = "pwd"
-path = "pwd/pwd.rs"
+path = "src/pwd/pwd.rs"
 
 [[bin]]
 name = "realpath"
-path = "realpath/realpath.rs"
+path = "src/realpath/realpath.rs"
 
 [[bin]]
 name = "relpath"
-path = "relpath/relpath.rs"
+path = "src/relpath/relpath.rs"
 
 [[bin]]
 name = "rm"
-path = "rm/rm.rs"
+path = "src/rm/rm.rs"
 
 [[bin]]
 name = "rmdir"
-path = "rmdir/rmdir.rs"
+path = "src/rmdir/rmdir.rs"
 
 [[bin]]
 name = "seq"
-path = "seq/seq.rs"
+path = "src/seq/seq.rs"
 
 [[bin]]
 name = "shuf"
-path = "shuf/shuf.rs"
+path = "src/shuf/shuf.rs"
 
 [[bin]]
 name = "sleep"
-path = "sleep/sleep.rs"
+path = "src/sleep/sleep.rs"
 
 [[bin]]
 name = "split"
-path = "split/split.rs"
+path = "src/split/split.rs"
 
 [[bin]]
 name = "sum"
-path = "sum/sum.rs"
+path = "src/sum/sum.rs"
 
 [[bin]]
 name = "sync"
-path = "sync/sync.rs"
+path = "src/sync/sync.rs"
 
 [[bin]]
 name = "tac"
-path = "tac/tac.rs"
+path = "src/tac/tac.rs"
 
 [[bin]]
 name = "tail"
-path = "tail/tail.rs"
+path = "src/tail/tail.rs"
 
 [[bin]]
 name = "tee"
-path = "tee/tee.rs"
+path = "src/tee/tee.rs"
 
 [[bin]]
 name = "test"
-path = "test/test.rs"
+path = "src/test/test.rs"
 
 [[bin]]
 name = "timeout"
-path = "timeout/timeout.rs"
+path = "src/timeout/timeout.rs"
 
 [[bin]]
 name = "touch"
-path = "touch/touch.rs"
+path = "src/touch/touch.rs"
 
 [[bin]]
 name = "tr"
-path = "tr/tr.rs"
+path = "src/tr/tr.rs"
 
 [[bin]]
 name = "true"
-path = "true/true.rs"
+path = "src/true/true.rs"
 
 [[bin]]
 name = "truncate"
-path = "truncate/truncate.rs"
+path = "src/truncate/truncate.rs"
 
 [[bin]]
 name = "tsort"
-path = "tsort/tsort.rs"
+path = "src/tsort/tsort.rs"
 
 [[bin]]
 name = "tty"
-path = "tty/tty.rs"
+path = "src/tty/tty.rs"
 
 [[bin]]
 name = "uname"
-path = "uname/uname.rs"
+path = "src/uname/uname.rs"
 
 [[bin]]
 name = "unexpand"
-path = "unexpand/unexpand.rs"
+path = "src/unexpand/unexpand.rs"
 
 [[bin]]
 name = "uniq"
-path = "uniq/uniq.rs"
+path = "src/uniq/uniq.rs"
 
 [[bin]]
 name = "unlink"
-path = "unlink/unlink.rs"
+path = "src/unlink/unlink.rs"
 
 [[bin]]
 name = "uptime"
-path = "uptime/uptime.rs"
+path = "src/uptime/uptime.rs"
 
 [[bin]]
 name = "users"
-path = "users/users.rs"
+path = "src/users/users.rs"
 
 [[bin]]
 name = "wc"
-path = "wc/wc.rs"
+path = "src/wc/wc.rs"
 
 [[bin]]
 name = "whoami"
-path = "whoami/whoami.rs"
+path = "src/whoami/whoami.rs"
 
 [[bin]]
 name = "yes"
-path = "yes/yes.rs"
+path = "src/yes/yes.rs"
 
 [dependencies.rust-crypto]
 git = "https://github.com/dagenix/rust-crypto"
