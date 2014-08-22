@@ -125,7 +125,6 @@ To do
 - chcon
 - chgrp
 - chmod
-- chown
 - copy
 - cp (not much done)
 - csplit
