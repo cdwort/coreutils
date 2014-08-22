@@ -130,6 +130,7 @@ INSTALLEES  := \
 # Programs with usable tests
 TEST_PROGS  := \
   cat \
+  chown \
   mkdir \
   nl \
   seq \
