@@ -25,14 +25,22 @@ static VERSION: &'static str = "1.0.0";
 pub fn uumain(args: Vec<String>) -> int {
 
     let options = [
-        optflag("f", "", "Don't report any failure to change file owner or group, \
+        optflag("c", "changes", "like verbose but report only when a change is made"),
+        optflag("", "derefence", "affect  the referent of each symbolic link, rather \
+                                  than the symbolic link itself (this is the default)"),
+        optflag("f", "silent", "Don't report any failure to change file owner or group, \
                           nor modify the exit status to reflect such failures."),
         optflag("H", "", "If the -R option is specified, symbolic links on the \
                           command line are followed.  (Symbolic links encountered \
                           in the tree traversal are not followed.)"),
+        optflag("h", "no-deference", "affect each symbolic link instead of any referenced \
+                                      file (useful only on systems that can change the \
+                                      ownership of a symlink)"),
+        optflag("L", "", "traverse every symbolic link to a directory encountered"),
+        optflag("P", "", "do not traverse any symbolic links (default)"),
+        optflag("R", "recursive", "operate on files and directories recursively"),
         optflag("", "help", "Print usage."),
         optflag("V", "version", "Print version.")
-
     ];
 
     let opts = match getopts(args.tail(), options) {
